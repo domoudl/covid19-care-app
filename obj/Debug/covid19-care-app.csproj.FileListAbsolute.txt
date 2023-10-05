@@ -1,0 +1,9 @@
+C:\Users\issad\Bureau\Cours\M1_SIR\APIWebService\covid19-care-app\bin\Debug\covid19_care_app.exe.config
+C:\Users\issad\Bureau\Cours\M1_SIR\APIWebService\covid19-care-app\bin\Debug\covid19_care_app.exe
+C:\Users\issad\Bureau\Cours\M1_SIR\APIWebService\covid19-care-app\bin\Debug\covid19_care_app.pdb
+C:\Users\issad\Bureau\Cours\M1_SIR\APIWebService\covid19-care-app\obj\Debug\covid19-care-app.csproj.AssemblyReference.cache
+C:\Users\issad\Bureau\Cours\M1_SIR\APIWebService\covid19-care-app\obj\Debug\covid19_care_app.Properties.Resources.resources
+C:\Users\issad\Bureau\Cours\M1_SIR\APIWebService\covid19-care-app\obj\Debug\covid19-care-app.csproj.GenerateResource.cache
+C:\Users\issad\Bureau\Cours\M1_SIR\APIWebService\covid19-care-app\obj\Debug\covid19-care-app.csproj.CoreCompileInputs.cache
+C:\Users\issad\Bureau\Cours\M1_SIR\APIWebService\covid19-care-app\obj\Debug\covid19_care_app.exe
+C:\Users\issad\Bureau\Cours\M1_SIR\APIWebService\covid19-care-app\obj\Debug\covid19_care_app.pdb
