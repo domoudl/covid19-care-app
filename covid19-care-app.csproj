@@ -351,6 +351,8 @@
             <DependentUpon>Form1.cs</DependentUpon>
         </Compile>
         <Compile Include="Models\Disponibilite.cs" />
+        <Compile Include="Models\Patient.cs" />
+        <Compile Include="Models\RendezVous.cs" />
         <Compile Include="Models\StructureSante.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
@@ -426,6 +428,7 @@
         <None Include="App.config" />
     </ItemGroup>
     <ItemGroup>
+      <Content Include="Resources\cancel.png" />
       <Content Include="Resources\new_logo.png" />
       <Content Include="Resources\Stop_Covid_19_Omicron_Variant_Instagram_Post.png" />
       <Content Include="Resources\Stop_Covid_19_Omicron_Variant_Instagram_Post__1_.png" />

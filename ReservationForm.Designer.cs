@@ -58,9 +58,11 @@ namespace covid19_care_app
             this.lastNameTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panelLeft.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelRight.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panelLeft
@@ -86,6 +88,7 @@ namespace covid19_care_app
             // panelRight
             // 
             this.panelRight.BackColor = System.Drawing.Color.White;
+            this.panelRight.Controls.Add(this.pictureBox2);
             this.panelRight.Controls.Add(this.SubmitButton);
             this.panelRight.Controls.Add(this.label6);
             this.panelRight.Controls.Add(this.typeRvComboBox);
@@ -121,6 +124,7 @@ namespace covid19_care_app
             this.SubmitButton.Size = new System.Drawing.Size(276, 48);
             this.SubmitButton.TabIndex = 12;
             this.SubmitButton.Text = "Submit";
+            this.SubmitButton.Click += new System.EventHandler(this.SubmitButton_Click);
             // 
             // label6
             // 
@@ -301,6 +305,17 @@ namespace covid19_care_app
             this.label1.TabIndex = 0;
             this.label1.Text = "Appointment";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::covid19_care_app.Properties.Resources.cancel;
+            this.pictureBox2.Location = new System.Drawing.Point(332, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(37, 35);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 13;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
             // ReservationForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -314,8 +329,11 @@ namespace covid19_care_app
             this.panelLeft.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelRight.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
         }
+
+        private System.Windows.Forms.PictureBox pictureBox2;
 
         private Guna.UI2.WinForms.Guna2Button SubmitButton;
 
